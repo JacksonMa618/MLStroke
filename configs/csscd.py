@@ -2,15 +2,14 @@ from .base import commen, data, model, train, test
 
 data.scale = None
 
-model.heads['ct_hm'] = 25
-record_dir = 'data/model/CCSE-HW'
-model_dir = 'data/model/CCSE-HW'
-train.batch_size = 16
-test.batch_size = 16
+model.heads['ct_hm'] = 33
+record_dir = 'data/model/LTH+SS+FZJTJW+FZLBJW+HLJ'
+train.batch_size = 8
+test.batch_size = 4
 train.epoch = 300
-train.dataset = 'ccseHW_train'
+train.dataset = 'StrokeExtraction_train'
 
-test.dataset = 'ccseHW_test'
+test.dataset = 'StrokeExtraction_val'
 
 class config(object):
     commen = commen

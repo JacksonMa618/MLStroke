@@ -10,7 +10,7 @@ test.batch_size = 16
 train.epoch = 300
 train.dataset = 'ccseHW_train'
 
-test.dataset = 'ccseHW_test'
+test.dataset = 'SCUT_Stroke_test'
 
 class config(object):
     commen = commen
